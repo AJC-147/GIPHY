@@ -2,6 +2,8 @@ var topics = ["Batman", "Superman", "Wonder Woman", "The Flash", "Green Lantern"
 
 
 function initialTopics() {
+    
+    $("#base-buttons").empty();
 
     for (var i = 0; i < topics.length; i++) {
 
@@ -31,12 +33,12 @@ function getGifs() {
             for (var i = 0; i < results.length; i++) {
 
                 var giphy = $("<div>");
-                giphy.addClass("gifs-1");
-                giphy.addClass("gifs-2");
                 var superHero = $("<img>");
                 var rating = results[i].rating;
                 var h6 = $("<h6>").text("Rating: " + rating);
-
+                
+                giphy.addClass("gifs-1");
+                giphy.addClass("gifs-2");
                 superHero.attr("src", results[i].images.fixed_height_still.url);
                 superHero.attr("data-still", results[i].images.fixed_height_still.url);
                 superHero.attr("data-state", "still");
