@@ -1,0 +1,60 @@
+img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2 {
+    color: white;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 35px;
+    position: relative;
+    top: -66px;
+    left: 240px;
+}
+
+h6 {
+    opacity: .7;
+    position: relative;
+    left: 11%;
+    bottom: 35px;
+    color: white;
+    font-size: 12px;
+}
+
+nav {
+    background-color: black;
+    margin-bottom: 30px;
+
+}
+
+#header-logo {
+    width: 500px;
+    clip-path: ellipse(150px 100px at 100px 26px);
+    margin-top: 4px;
+    margin-left: 0;
+}
+
+button.btn.btn-primary.btn-lg {
+    margin: 2px;
+}
+
+.btn-floating.btn-large {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .row .col.s6 {
+        position: relative;
+        right: 35%;
+    }
+
+    nav {
+        height: 64px;
+        line-height: 64px;
+    }
+
+}
