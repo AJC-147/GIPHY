@@ -29,8 +29,8 @@ nav {
 }
 
 #header-logo {
-    width: 500px;
-    clip-path: ellipse(150px 100px at 100px 26px);
+    width: 250px;
+/*    clip-path: ellipse(150px 100px at 100px 26px);*/
     margin-top: 4px;
     margin-left: 0;
 }
